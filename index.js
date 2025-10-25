@@ -33,3 +33,14 @@ searchBtn.addEventListener("click", () => {
   search(url);
   searchInput.value = "";
 });
+
+searchInput.addEventListener("search", () => {
+  const searched = searchInput.value;
+  const url = `https://pixabay.com/api/?key=52883795-cb713ca2704b54e7ce8112362&q=${searched}&image_type=photo`;
+  search(url);
+  searchInput.value = "";
+});
+
+// Initial search to display some images
+const initialUrl = `https://pixabay.com/api/?key=52883795-cb713ca2704b54e7ce8112362&q=nature&image_type=photo`;
+search(initialUrl);

@@ -47,7 +47,7 @@ h1 {
   grid-template-rows: 1fr;
   padding: 10px;
   gap: 10px;
-  height: 70vh;
+  height: fit-content;
 }
 
 img {
