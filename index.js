@@ -41,6 +41,5 @@ searchInput.addEventListener("search", () => {
   searchInput.value = "";
 });
 
-// Initial search to display some images
-const initialUrl = `https://pixabay.com/api/?key=52883795-cb713ca2704b54e7ce8112362&q=nature&image_type=photo`;
-search(initialUrl);
+// just to load some default images on page looad
+content.textContent = "use the search bar on the right to search for images";

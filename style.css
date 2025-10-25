@@ -48,6 +48,7 @@ h1 {
   padding: 10px;
   gap: 10px;
   height: fit-content;
+  color: gray;
 }
 
 img {
@@ -77,4 +78,5 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: auto;
+  color: gray;
 }
